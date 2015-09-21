@@ -15,5 +15,21 @@ public class Main {
 			}
 		}
 		System.out.print(read);
+		for(int position = 0; position <= 100; position++) {
+			System.out.print("[");
+			for(int left = 0; left < position; left++) {
+				System.out.print("=");
+			}
+			System.out.print(">");
+			for(int right = position; right < 100; right++) {
+				System.out.print(" ");
+			}
+			System.out.print("] " + position + "\r");
+			try {
+			    Thread.sleep(100);                 //1000 milliseconds is one second.
+			} catch(InterruptedException ex) {
+			    Thread.currentThread().interrupt();
+			}
+		}
 	}
 }
