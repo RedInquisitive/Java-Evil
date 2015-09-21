@@ -30,6 +30,6 @@ public class Main {
 			} catch(InterruptedException ex) {
 			    Thread.currentThread().interrupt();
 			}
-		}
+		} 
 	}
 }
