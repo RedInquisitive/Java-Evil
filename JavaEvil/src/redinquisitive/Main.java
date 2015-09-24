@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class Main {
 
+	//Make it look like i contributed
 	public static void main(String[] args) {
 		System.out.print("Start: ");
 		String read = "";
